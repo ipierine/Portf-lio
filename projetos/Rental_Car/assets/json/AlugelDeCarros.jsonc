@@ -1,0 +1,254 @@
+{
+    "marca": [
+        {
+            "id": 1,
+            "name": "Honda",
+            "picture": "/honda.png",
+            "carros": [
+            {
+                "id":1,
+                "name": "Civic",
+                "description": "Ar-condicionado, 4 Portas, Manual, Sedã, Capacidade 5 passageiros, Airbag, ABS",
+                "pictures": "/civic.png"
+            },
+            {
+                "id":2,
+                "name": "WRV",
+                "description": "Ar-condicionado, 4 Portas, Manual, Hatch, Capacidade 5 passageiros, Airbag, ABS",
+                "pictures": "/wrv.png"
+            },
+            {
+                "id":3,
+                "name": "HRV",
+                "description": "Ar-condicionado, 4 Portas, Automático, SUV, Capacidade 5 passageiros, Airbag, ABS",
+                "pictures": "/hrv.png"
+            }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Toyota",
+            "picture": "/toyota.png",
+            "carros": [
+            {
+                "id":1,
+                "name": "Corolla",
+                "description": "Ar-condicionado, 4 Portas, Automático, Sedã, Capacidade 5 passageiros, Airbag, ABS",
+                "pictures": "/corolla.png"
+            },
+            {
+                "id":2,
+                "name": "Etios",
+                "description": "Ar-condicionado, 4 Portas, Manual, Hatch, Capacidade 5 passageiros, Airbag, ABS",
+                "pictures": "/etios.png"
+            },
+            {
+                "id":3,
+                "name": "Hillux",
+                "description": "Ar-condicionado, 4 Portas, Automático, SUV, Capacidade 5 passageiros, Airbag, ABS",
+                "pictures": "/hillux.png"
+            }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Audi",
+            "picture": "/audi.png",
+            "carros": [
+            {
+                "id":1,
+                "name": "A3",
+                "description": "Ar-condicionado, 4 Portas, Manual, Hatch, Capacidade 5 passageiros, Airbag, ABS",
+                "pictures": "/a3.png"
+            },
+            {
+                "id":2,
+                "name": "A4",
+                "description": "Ar-condicionado, 4 Portas, Manual, Sedã, Capacidade 5 passageiros, Airbag, ABS",
+                "pictures": "/etios.png"
+            },
+            {
+                "id":3,
+                "name": "Q5",
+                "description": "Ar-condicionado, 4 Portas, Automático, SUV, Capacidade 5 passageiros, Airbag, ABS",
+                "pictures": "/q5.png"
+            }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Volkswagen",
+            "picture": "/vw.png",
+            "carros": [
+            {
+                "id":1,
+                "name": "Gol",
+                "description": "Ar-condicionado, 4 Portas, Manual, Hatch, Capacidade 5 passageiros, Airbag, ABS",
+                "pictures": "/gol.png"
+            },
+            {
+                "id":2,
+                "name": "Jetta",
+                "description": "Ar-condicionado, 4 Portas, Automático, Sedã, Capacidade 5 passageiros, Airbag, ABS",
+                "pictures": "/jetta.png"
+            },
+            {
+                "id":3,
+                "name": "T-Cross",
+                "description": "Ar-condicionado, 4 Portas, Automático, SUV, Capacidade 5 passageiros, Airbag, ABS",
+                "pictures": "/t-cross.png"
+            }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Fiat",
+            "picture": "/fiat.png",
+            "carros": [
+            {
+                "id":1,
+                "name": "Mobi",
+                "description": "Ar-condicionado, 4 Portas, Manual, Hatch, Capacidade 5 passageiros, Airbag, ABS",
+                "pictures": "/mobi.png"
+            },
+            {
+                "id":2,
+                "name": "Gran Siena",
+                "description": "Ar-condicionado, 4 Portas, Manual, Sedã, Capacidade 5 passageiros, Airbag, ABS",
+                "pictures": "/gran siena.png"
+            },
+            {
+                "id":3,
+                "name": "Toro",
+                "description": "Ar-condicionado, 4 Portas, Automático, Caminhonete, Capacidade 5 passageiros, Airbag, ABS",
+                "pictures": "/toro.png",
+            }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Chevrolet",
+            "picture": "/gm.png",
+            "carros": [
+            {
+                "id":1,
+                "name": "Onix",
+                "description": "Ar-condicionado, 4 Portas, Manual, Hatch, Capacidade 5 passageiros, Airbag, ABS",
+                "pictures": "/onix.png"
+            },
+            {
+                "id":2,
+                "name": "Onix Plus",
+                "description": "Ar-condicionado, 4 Portas, Manual, Sedã, Capacidade 5 passageiros, Airbag, ABS",
+                "pictures": "/onix plus.png"
+            },
+            {
+                "id":3,
+                "name": "Trial Blazer",
+                "description": "Ar-condicionado, 4 Portas, Automático, SUV, Capacidade 5 passageiros, Airbag, ABS",
+                "pictures": "/blazer.png"
+            }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "BMW",
+            "picture": "/gm.png",
+            "carros": [
+            {
+                "id":1,
+                "name": "320I",
+                "description": "Ar-condicionado, 4 Portas, Automático, Hatch, Capacidade 5 passageiros, Airbag, ABS",
+                "pictures": "/320i.png"
+            },
+            {
+                "id":2,
+                "name": "X6",
+                "description": "Ar-condicionado, 4 Portas, Automático, Sedã, Capacidade 5 passageiros, Airbag, ABS",
+                "pictures": "/x6.png"
+            },
+            {
+                "id":3,
+                "name": "X1",
+                "description": "Ar-condicionado, 4 Portas, Automático, SUV, Capacidade 5 passageiros, Airbag, ABS",
+                "pictures": "/x1.png"
+            }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Mercedes",
+            "picture": "/mercedes.png",
+            "carros": [
+            {
+                "id":1,
+                "name": "C180",
+                "description": "Ar-condicionado, 4 Portas, Automático, Hatch, Capacidade 5 passageiros, Airbag, ABS",
+                "pictures": "/c180.png"
+            },
+            {
+                "id":2,
+                "name": "EQS580",
+                "description": "Ar-condicionado, 4 Portas, Automático, Sedã, Capacidade 5 passageiros, Airbag, ABS",
+                "pictures": "/eqs580.png"
+            },
+            {
+                "id":3,
+                "name": "Classe X",
+                "description": "Ar-condicionado, 4 Portas, Automático, SUV, Capacidade 5 passageiros, Airbag, ABS",
+                "pictures": "/classe x.png"
+            }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Hyundai",
+            "picture": "/mercedes.png",
+            "carros": [
+            {
+                "id":1,
+                "name": "HB20",
+                "description": "Ar-condicionado, 4 Portas, Manual, Hatch, Capacidade 5 passageiros, Airbag, ABS",
+                "pictures": "/hb20.png"
+            },
+            {
+                "id":2,
+                "name": "Elantra",
+                "description": "Ar-condicionado, 4 Portas, Automático, Sedã, Capacidade 5 passageiros, Airbag, ABS",
+                "pictures": "/elantra.png"
+            },
+            {
+                "id":3,
+                "name": "Gran Santa Fé",
+                "description": "Ar-condicionado, 4 Portas, Automático, SUV, Capacidade 5 passageiros, Airbag, ABS",
+                "pictures": "/santa fé.png"
+            }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Nissan",
+            "picture": "/nissan.png",
+            "carros": [
+            {
+                "id":1,
+                "name": "Kicks",
+                "description": "Ar-condicionado, 4 Portas, Automático, Hatch, Capacidade 5 passageiros, Airbag, ABS",
+                "pictures": "/hb20.png"
+            },
+            {
+                "id":2,
+                "name": "Versa",
+                "description": "Ar-condicionado, 4 Portas, Manual, Sedã, Capacidade 5 passageiros, Airbag, ABS",
+                "pictures": "/elantra.png"
+            },
+            {
+                "id":3,
+                "name": "Frontier",
+                "description": "Ar-condicionado, 4 Portas, Automático, Caminhonete, Capacidade 5 passageiros, Airbag, ABS",
+                "pictures": "/frontier.png"
+            }
+            ]
+        }
+    ]
+}

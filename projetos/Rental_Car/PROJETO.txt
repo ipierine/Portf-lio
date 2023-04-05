@@ -1,0 +1,50 @@
+Ideia Principal - Site de Aluguel de carros!
+
+Inspiração- Localiza
+
+
+                                   HOME
+
+Menu simples
+
+Teremos o logo da empresa, com algumas informações especificas da empresa!
+
+Com pagina de carrossel mostrando os carros!
+
+lista de marcas
+
+
+
+2. Pagina lista dos carros que teremos disponiveis;
+Pagina de Busca com "busca pelo veiculo" "marca"
+
+
+* Honda (CIVIC , HRV , WRV)
+
+* Toyota (COROLA, ETIOS, HILLUX)
+
+* Audi (A3 HACTH, A4 SEDAN, Q5)
+
+* VW (T-CROSS, GOL, JETTA)
+
+* Fiat (TORO, MOBI, GRAN SIENA)
+
+* GM (ONIX, ONIX PLUS, GRAN BLAZER)
+
+* BMW (320I, X6, X1)
+
+* MERCEDES (C180, EQS580, CLASSE X)
+
+* HYUNDAI (HB20, SANTA FÉ, ELANTRA)
+
+* NISSAN ( VERSA, KICKS, FRONTIER)
+
+
+3. PAGINA DE RESERVA
+
+4. PAGINA DO LOGIN
+
+5. PAGINA DE CADASTRO (FEITO PORÉM REINSCREVER EM JAVA)
+
+6 PAGINA DE PAGAMENTO
+

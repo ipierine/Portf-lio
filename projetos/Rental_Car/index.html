@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+    <title>Rental Car</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="./index.html"><img src="./assets/img/Rental_Car_Logotipo.png" alt="logo"></a>
+         </div>
+        <nav>
+            <div class="menu">
+                <ul>
+                    <li class="menu-item"><a href="#grupo-de-carros">Grupos de Carros</a></li>
+                    <li class="menu-item"><a href="./paginas/quem-somos.html">Quem Somos</a></li>
+                    <li class="menu-item"><a href="#fale-conosco">Fale Conosco</a></li>
+                    <li class="menu-item"><a href="./paginas/login.html">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="carrossel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/propaganda/maserati.jpg" class="d-block w-100" alt="Banner">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/propaganda/black-friday.png" class="d-block w-100" alt="Banner">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/propaganda/aluguel_de_carros.png" class="d-block w-100" alt="Banner">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/propaganda/holidays.jpg" class="d-block w-100" alt="Banner">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fas fa-chevron-left"></i></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"><i class="fas fa-chevron-right"></i></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section> 
+    <main id='grupo-de-carros'>
+        <h1>Marcas dos Carros</h1>
+        <div class="marca-dos-carros">
+            <!--LISTA DAS MARCAS DOS CARROS-->
+            <div class="marca">
+                <a class="box-marca" href="./paginas/audi.html">
+                    <img src="./assets/img/carros/Audi/audi.png" alt="Audi">
+                    <h3>Audi</h3>
+                    <p>Audi é uma empresa automobilística alemã que faz parte do grupo Volkswagen.</p>
+                    <br>
+                    <span class="modelo">Modelos</span>
+                </a>
+            </div>
+            <div class="marca">
+                <a class="box-marca" href="./paginas/bmw.html">
+                    <img src="./assets/img/carros/BMW/bmw.png" alt="BMW">
+                    <h3>BMW</h3>
+                    <p>Bayerische Motoren Werke AG é uma empresa alemã, fabricante de automóveis e motocicletas, sediada em Munique, Baviera.</p>
+                    <span class="modelo">Modelos</span>
+                </a>
+            </div>
+            <div class="marca">
+                <a class="box-marca" href="./paginas/gm.html">
+                    <img src="./assets/img/carros/GM/gm.png" alt="GM">
+                    <h3>Chevrolet</h3>
+                    <p>Chevrolet é um fabricante de veículos motorizados norte-americano fundado em 1911 pertencente à General Motors.</p>
+                    <span class="modelo">Modelos</span>
+                </a>
+            </div>
+            <div class="marca">
+                <a class="box-marca" href="./paginas/fiat.html">
+                    <img src="./assets/img/carros/Fiat/fiat.png" alt="Fiat">
+                    <h3>Fiat</h3>
+                    <p>FIAT é uma das marcas da Stellantis, um dos maiores fabricantes de automóveis do mundo, com sede mundial na cidade de Turim, norte da Itália.</p>
+                    <span class="modelo">Modelos</span>
+                </a>
+            </div>
+            <div class="marca">
+                <a class="box-marca" href="./paginas/honda.html">
+                    <img src="./assets/img/carros/Honda/honda.png" alt="Honda">
+                    <h3>Honda</h3>
+                    <p>Honda Motor Company, Limited é um dos mais importantes fabricantes de automóveis e motocicletas do mundo. Fundada por Soichiro Honda.</p>
+                    <span class="modelo">Modelos</span>
+                </a>
+            </div>
+            <div class="marca">
+                <a class="box-marca" href="./paginas/hyundai.html">
+                    <img src="./assets/img/carros/Hyundai/hyundai.png" alt="Hyundai">
+                    <h3>Hyundai</h3>
+                    <p>A Hyundai Motor Company, que significa "moderno", é uma multinacional sul-coreana, fundada em 29 de dezembro de 1967.</p>
+                    <br>
+                    <span class="modelo">Modelos</span>
+                </a>
+            </div>
+            <div class="marca">
+                <a class="box-marca" href="./paginas/mercedes.html">
+                    <img src="./assets/img/carros/Mercedes/mercedes.png" alt="Mercedes">
+                    <h3>Mercedes</h3>
+                    <p>A Mercedes-Benz é uma marca alemã de automóveis criada em 1924. É a mais antiga empresa de automóveis e veículos comerciais da Alemanha e do mundo.</p>
+                    <span class="modelo">Modelos</span>
+                </a>
+            </div>
+            <div class="marca">
+                <a class="box-marca" href="./paginas/nissan.html">
+                    <img src="./assets/img/carros/Nissan/nissan.png" alt="Nissan">
+                    <h3>Nissan</h3>
+                    <p>A Nissan é uma fabricante japonesa de automóveis. É a terceira maior fabricante japonesa de automóveis depois da Toyota e Honda em capitalização de mercado.</p>
+                    <span class="modelo">Modelos</span>
+                </a>
+            </div>
+            <div class="marca">
+                <a class="box-marca" href="./paginas/toyota.html">
+                    <img src="./assets/img/carros/Toyota/toyota.png" alt="Toyota">
+                    <h3>Toyota</h3>
+                    <p>Toyota-Astra Motor é uma empresa comercial de automóveis com sede em Jacarta, Indonésia.</p>
+                    <br>
+                    <br>
+                    <span class="modelo">Modelos</span>
+                </a>
+            </div>
+            <div class="marca">
+                <a class="box-marca" href="./paginas/vw.html">
+                    <img src="./assets/img/carros/VW/vw.png" alt="VW">
+                    <h3>Volkswagen</h3>
+                    <p>Volkswagen do Brasil é uma empresa automobilística brasileira. Após a China, o Brasil é o país onde a Volkswagen tem a maior presença mundial fora da Alemanha.</p>
+                    <span class="modelo">Modelos</span>
+                </a>
+            </div>
+        </div>
+    </main>
+    <footer id="fale-conosco">
+        <div class="footer">
+            <div class="menu">
+                <img src="./assets/img/Rental_Car_Logotipo.png" alt="logo">
+                <ul>
+                    <li class="menu-item"><a href="../index.html#grupo-de-carros">Grupo de Carros</a> | </li>
+                    <li class="menu-item"><a href="quem-somos.html">Quem Somos</a></li>
+                </ul>
+            <br>
+                <p><strong>CNPJ: </strong>21.790.175/0001-10</p>
+                <p><strong>Telefone: </strong>(11) 3806-9554</p>
+                <p><strong>WhatsApp: </strong>(11) 99867-7684</p>
+                <p><strong>E-mail: </strong>contato@rentalcar.com.br</p>
+
+            </div>
+            <div class="localizacao"><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.6642791302097!2d-46.67282068554256!3d-23.580498068183186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDM0JzQ5LjgiUyA0NsKwNDAnMTQuMyJX!5e0!3m2!1spt-BR!2sbr!4v1631846191616!5m2!1spt-BR!2sbr"
+                    width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
